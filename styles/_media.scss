@@ -1,0 +1,135 @@
+@media screen and (max-width: 600px) {
+  header {
+    padding: 0;
+  }
+  header .right-header {
+    padding: 2rem 0 !important;
+  }
+
+  section {
+    padding: 2rem 1rem 0 1rem !important;
+  }
+
+  .theme-btn {
+    width: 50px;
+    height: 50px;
+  }
+
+  .header-content {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+
+  .left-header {
+    .h-shape {
+      display: none;
+    }
+
+    .image {
+      margin: 0 auto !important;
+      width: 90% !important;
+    }
+  }
+
+  .right-header {
+    grid-row: 1;
+    width: 90%;
+    margin: 0 auto;
+
+    .name {
+      font-size: 2rem !important;
+    }
+
+    p {
+      line-height: 1rem;
+    }
+  }
+
+  .controls {
+    top: auto;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: var(--color-grey-5);
+
+    .control {
+      margin: 1rem 0.3rem;
+    }
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    padding-bottom: 4rem;
+
+    .left-about {
+      padding-right: 0 !important;
+
+      h4 {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+
+      .btn-container {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .right-about {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .about-stats {
+    .progress-bars {
+      grid-template-columns: 1fr;
+      margin-bottom: 4rem;
+    }
+  }
+
+  .timeline {
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5rem;
+  }
+
+  .portfolios {
+    grid-template-columns: 1fr !important;
+    margin-top: 0 !important;
+  }
+
+  .main-title {
+    h2 {
+      font-size: 2rem;
+
+      .bg-text {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .contact-content-container {
+    margin-bottom: 5rem;
+    h2 {
+      margin-bottom: 2rem;
+    }
+    .contact-icons-container {
+      flex-direction: column;
+
+      .social-icon {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .stat-title {
+    font-size: 1.5rem;
+  }
+
+  .timeline-label {
+    font-size: 1.5rem !important;
+  }
+}
